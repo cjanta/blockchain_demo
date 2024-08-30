@@ -4,7 +4,8 @@
   "description": "1.) bash: node - v > v20.16.0 2.) package.json anlegen 3.) npm i nodemon --save-dev TODO",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev-test" : "nodemon dev-test"
   },
   "keywords": [],
   "author": "",
