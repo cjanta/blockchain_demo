@@ -1,1 +1,1 @@
-console.log("retard implementation of the worlds biggest casino");
+console.log("implementation of the worlds biggest casino");
