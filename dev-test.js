@@ -2,7 +2,7 @@ console.log("Example implementation of the worlds biggest casino.");
 // Import
 const Block = require("./block");
 
-const block = new Block("aktuelle zeit","hash1","hash2","Blockdaten");
+const block_chain = [];
 
-
-console.log(Block.genesis().toString());
+const test_block = Block.mineBlock(Block.genesis(), "Testdaten!");
+console.log(test_block.toString());

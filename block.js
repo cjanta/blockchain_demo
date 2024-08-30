@@ -16,7 +16,15 @@ class Block{
     }
 
     static genesis(){
-        return new this("Genesis time", "-----", "f1r57-h45h", []);
+        return new this("Genesis time", "-----", "f1r57-h45h", ["Datenzeichenkette1", "Datenzeichenkette2"]);
+    }
+
+    static mineBlock(lastBlock, data){
+        const timestamp = Date.now();
+        const lastHash = lastBlock.hash;
+        const hash = " to Do hash";
+
+        return new this(timestamp, lastHash, hash , data);
     }
     
 }
