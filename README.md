@@ -21,7 +21,9 @@
 10. erste methoden: **static genesis()** und **static mineBlock(last_block, data)**
 11. crypto-js installieren mit: **npm i crypto-js --save**
 12. Implementierung der static hash methode in Klasse Block sowie in mine() die hash Methode zum ermitteln eines Hash einfügen
-
+13. Anlegen der Klasse: Blockchain in blockchain.js mit constructor() und addBlock()
+14. in dev-test.js nun die Blockchain instanzieren, Blöcke hinzufügen, Instanz anzeigen.
+15. [ÜBERSPRUNGEN] Anlegen und Ausführen einer Testklasse
 
 
 
