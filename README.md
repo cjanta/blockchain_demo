@@ -10,9 +10,13 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev-test" : "nodemon dev-test" <-- diese zeile hinzugügen
   },
-6.) npm run dev-test 
+7.) npm run dev-test //nodemon starten
 > nodemon überwacht nun die Datei: dev-test.js und zeigt diese im Terminal an!
-> testzeile in: "dev-test.js" einfügen: console.log("implementation of the worlds biggest casino");
+> testzeile in: "dev-test.js" einfügen: console.log("Example implementation of the worlds biggest casino");
+
+8.) Klasse: Block anlegen: felder und constr.params: timestamp, lastHash, Hash, data
+> Stringvariable, concat ohne + mit den Zeichen: `MeineStringVariable Zeit: ${this.time}`
+9.) Zeile in der Block-Klassen-Datei hinzufügen, nach der Klassendefinition: module.exports = Block
 
 
 TODO
