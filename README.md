@@ -12,7 +12,7 @@
   },
 6.) npm run dev-test 
 > nodemon überwacht nun die Datei: dev-test.js und zeigt diese im Terminal an!
-
+> testzeile in: "dev-test.js" einfügen: console.log("retard implementation of the worlds biggest casino");
 
 
 TODO
